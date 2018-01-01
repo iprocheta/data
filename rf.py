@@ -56,7 +56,7 @@ def HeartAttackCal(name):
     Ami_data['Result'] = Ami_data[list(y_Data_frame)].idxmax(axis = 1)
     Ami_data
 
-    train_Data = Ami_data[:222]
+    train_Data = Ami_data[:221]
     #test_Data = Ami_data[310:]
     test_Data = input_Data
 
